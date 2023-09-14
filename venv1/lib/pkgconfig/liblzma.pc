@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/yogeshdewangan/Desktop/Machine Learning/DimondPricePrediction/venv1
+exec_prefix=/Users/yogeshdewangan/Desktop/Machine Learning/DimondPricePrediction/venv1
+libdir=/Users/yogeshdewangan/Desktop/Machine Learning/DimondPricePrediction/venv1/lib
+includedir=/Users/yogeshdewangan/Desktop/Machine Learning/DimondPricePrediction/venv1/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
